@@ -60,7 +60,7 @@ function App() {
         <Navbar>
           <Links href="#">Home</Links>
           <Links href="https://github.com/SypFilter">Github</Links>
-          <Links href="#">About</Links>
+          <Links href="https://github.com/SypFilter/Weather-Prevision">About</Links>
         </Navbar>
       </Header>
       <SearchSection>
