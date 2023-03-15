@@ -41,7 +41,6 @@ function App() {
         return response.json();
       })
       .then((data) => {
-        console.log(data);
         SetWeatherData(data);
       })
       .catch((error) => {
@@ -50,7 +49,6 @@ function App() {
       });
   }
 
-  console.log(value);
   return (
     <Container>
       <Header>
@@ -60,7 +58,9 @@ function App() {
         <Navbar>
           <Links href="#">Home</Links>
           <Links href="https://github.com/SypFilter">Github</Links>
-          <Links href="https://github.com/SypFilter/Weather-Prevision">About</Links>
+          <Links href="https://github.com/SypFilter/Weather-Prevision">
+            About
+          </Links>
         </Navbar>
       </Header>
       <SearchSection>
