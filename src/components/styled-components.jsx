@@ -4,37 +4,6 @@ const Container = styled.body `
     width: 100%;
     height: 100%;
 `
-const Header = styled.div `
-    display: flex;
-    background-color: #000;
-    color: white; 
-    height: 57px
-`
-
-const LogoDiv = styled.div `
-    padding: 13px;
-    padding-left: 40px
-`
-
-const Navbar = styled.div `
-    display: flex;
-    padding: 18px;
-    padding-left: 30px;
-`
-
-const Links = styled.a `
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: lighter;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-left: 40px;
-    &:hover { 
-        transition: 0.5s;
-        color: #808080e5;
-    }
-`
 
 const SearchSection = styled.div `
      display: flex;
@@ -69,4 +38,3 @@ const Button = styled.button `
     margin-left: 1vw;
     margin-block-end: 15px;
 `
-export {Container, Header, LogoDiv, Navbar, Links, Fild, SearchSection, FildDiv, Button};
