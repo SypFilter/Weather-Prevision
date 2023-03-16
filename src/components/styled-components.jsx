@@ -56,6 +56,9 @@ const Fild = styled.input `
     padding-right: 72vw;
     background-color: #333;
     color: white;
+    &:focus {
+        outline: none;
+    }
 `
 
 const Button = styled.button `
