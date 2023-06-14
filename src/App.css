@@ -14,11 +14,11 @@ body {
   cursor: pointer;
   font-size: 28px;
   font-weight: lighter;
+  transition: 0.5s;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header-main:hover {
-  transition: 0.5s;
   letter-spacing: 2px;
   text-shadow: 12px 5px 22px;
 }
